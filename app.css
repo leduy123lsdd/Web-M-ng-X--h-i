@@ -55,14 +55,18 @@ body,html {
 }
 
 .modal-contents {
-	height: 400px;
+	height: 350px;
 	width: 300px;
-	background-color: white;
 	text-align: center;
 	padding: 20px;
 	position: relative;
 	border-radius: 4px;
   background-image: url("/image/modal2.jpg");
+}
+
+.login_height{
+  height: 220px;
+  background-image: none;
 }
 
 input {
@@ -94,4 +98,8 @@ input {
 
 #start:hover {
   background: #BABFC4;
+}
+
+#test2 model-contents {
+  width: 2000px;
 }

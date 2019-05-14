@@ -27,7 +27,7 @@
 		    </ul>
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item navbar_items_custom">
-						<a class="nav-link" href="#">Login <i class="fa fa-user"></i></a>
+						<a id="log_in" class="nav-link" href="#">Login <i class="fa fa-user"></i></a>
 					</li>
 					<li class="nav-item navbar_items_custom">
 						<a id="sign_in" class="nav-link" href="#">Sign In <i class="fa fa-user-plus"></i></a>
@@ -50,9 +50,9 @@
 	 	</div>
 	</div>
 
-	<!-- TODO: modal popup section -->
+	<!-- TODO: modal popup section "gets started + Sign IN" -->
 
-		<div class="bg-modal">
+		<div id="test1" class="bg-modal">
 				<div class="modal-contents">
 					<div class="close pt-0 pb-0 "><i class="fas fa-times"></i></div>
 					<form class="" action="index.html" method="">
@@ -61,11 +61,23 @@
 							<input class="col-12" id="email" type="email" placeholder="Your E-Mail" name="email" required>
 							<input class="col-12" id="password" type="password" placeholder="Password" name="password" required>
 							<button type="" class="col-12 btn btn-success border border-light" id="signin" name="">Sign In</button>
-							<p style="color:black" class="col-12">Or</p>
-							<button type="" class="col-12 btn btn-info border border-light" id="login" name="">Login</button>
 					</form>
 				</div> <!-- bg-modal items -->
 		</div>
+
+		<!-- TODO: Login -->
+
+		<div id="test2" class="bg-modal">
+				<div class="modal-contents login_height">
+					<div id="login_close" class="close pt-0 pb-0 "><i class="far fa-times-circle"></i></i></div>
+					<form class="" action="index.html" method="">
+							<input class="col-12" id="user_name" type="text" placeholder="Your account." name="user_name" required>
+							<input class="col-12" id="user_password" type="text" placeholder="Password" name="user_password">
+							<button type="" class="col-12 btn btn-success border border-light" id="login" name="">Log In</button>
+					</form>
+				</div> <!-- bg-modal items -->
+		</div>
+
 
 
 	<script type="text/javascript" src="script.js"></script>
